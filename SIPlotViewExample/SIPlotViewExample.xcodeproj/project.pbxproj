@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94399921AC5FC1700F3D4A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94399911AC5FC1700F3D4A5 /* Cocoa.framework */; };
+		A943999C1AC5FC1700F3D4A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A943999A1AC5FC1700F3D4A5 /* InfoPlist.strings */; };
+		A943999E1AC5FC1700F3D4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A943999D1AC5FC1700F3D4A5 /* main.m */; };
+		A94399A21AC5FC1800F3D4A5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A94399A01AC5FC1800F3D4A5 /* Credits.rtf */; };
+		A94399A51AC5FC1800F3D4A5 /* SIPlotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94399A41AC5FC1800F3D4A5 /* SIPlotAppDelegate.m */; };
+		A94399A81AC5FC1800F3D4A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94399A61AC5FC1800F3D4A5 /* MainMenu.xib */; };
+		A94399C01AC6191A00F3D4A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94399911AC5FC1700F3D4A5 /* Cocoa.framework */; };
+		A94399C61AC6191A00F3D4A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94399C41AC6191A00F3D4A5 /* InfoPlist.strings */; };
+		A94399CE1AC6192700F3D4A5 /* NSString+timeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = A94399B81AC615B000F3D4A5 /* NSString+timeInterval.m */; };
+		A94399CF1AC6192E00F3D4A5 /* NSString+timeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = A94399B71AC615B000F3D4A5 /* NSString+timeInterval.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A94399D01AC6193900F3D4A5 /* SIPlotView.h in Headers */ = {isa = PBXBuildFile; fileRef = A94399B41AC5FC3E00F3D4A5 /* SIPlotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94399D41AC6197000F3D4A5 /* SIPlotView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */; };
+		A94399D61AC6198200F3D4A5 /* SIPlotView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */; };
+		A94399D71AC61A5300F3D4A5 /* SIPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94399B51AC5FC3E00F3D4A5 /* SIPlotView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94399D21AC6196A00F3D4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94399861AC5FC1700F3D4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94399BE1AC6191A00F3D4A5;
+			remoteInfo = SIPlotView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A94399D51AC6197300F3D4A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A94399D61AC6198200F3D4A5 /* SIPlotView.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A943998E1AC5FC1700F3D4A5 /* SIPlotViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIPlotViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94399911AC5FC1700F3D4A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A94399941AC5FC1700F3D4A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A94399951AC5FC1700F3D4A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A94399961AC5FC1700F3D4A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A94399991AC5FC1700F3D4A5 /* SIPlotViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIPlotViewExample-Info.plist"; sourceTree = "<group>"; };
+		A943999B1AC5FC1700F3D4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A943999D1AC5FC1700F3D4A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A943999F1AC5FC1800F3D4A5 /* SIPlotViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SIPlotViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		A94399A11AC5FC1800F3D4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A94399A31AC5FC1800F3D4A5 /* SIPlotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIPlotAppDelegate.h; sourceTree = "<group>"; };
+		A94399A41AC5FC1800F3D4A5 /* SIPlotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIPlotAppDelegate.m; sourceTree = "<group>"; };
+		A94399A71AC5FC1800F3D4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A94399B41AC5FC3E00F3D4A5 /* SIPlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIPlotView.h; sourceTree = "<group>"; };
+		A94399B51AC5FC3E00F3D4A5 /* SIPlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIPlotView.m; sourceTree = "<group>"; };
+		A94399B71AC615B000F3D4A5 /* NSString+timeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+timeInterval.h"; sourceTree = "<group>"; };
+		A94399B81AC615B000F3D4A5 /* NSString+timeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+timeInterval.m"; sourceTree = "<group>"; };
+		A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIPlotView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94399C31AC6191A00F3D4A5 /* SIPlotView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIPlotView-Info.plist"; sourceTree = "<group>"; };
+		A94399C51AC6191A00F3D4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A94399C71AC6191A00F3D4A5 /* SIPlotView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SIPlotView-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A943998B1AC5FC1700F3D4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94399D41AC6197000F3D4A5 /* SIPlotView.framework in Frameworks */,
+				A94399921AC5FC1700F3D4A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94399BB1AC6191A00F3D4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94399C01AC6191A00F3D4A5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94399851AC5FC1700F3D4A5 = {
+			isa = PBXGroup;
+			children = (
+				A94399971AC5FC1700F3D4A5 /* SIPlotViewExample */,
+				A94399C11AC6191A00F3D4A5 /* SIPlotView */,
+				A94399901AC5FC1700F3D4A5 /* Frameworks */,
+				A943998F1AC5FC1700F3D4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A943998F1AC5FC1700F3D4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A943998E1AC5FC1700F3D4A5 /* SIPlotViewExample.app */,
+				A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94399901AC5FC1700F3D4A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94399911AC5FC1700F3D4A5 /* Cocoa.framework */,
+				A94399931AC5FC1700F3D4A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94399931AC5FC1700F3D4A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94399941AC5FC1700F3D4A5 /* AppKit.framework */,
+				A94399951AC5FC1700F3D4A5 /* CoreData.framework */,
+				A94399961AC5FC1700F3D4A5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A94399971AC5FC1700F3D4A5 /* SIPlotViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				A94399B71AC615B000F3D4A5 /* NSString+timeInterval.h */,
+				A94399B81AC615B000F3D4A5 /* NSString+timeInterval.m */,
+				A94399B41AC5FC3E00F3D4A5 /* SIPlotView.h */,
+				A94399B51AC5FC3E00F3D4A5 /* SIPlotView.m */,
+				A94399A31AC5FC1800F3D4A5 /* SIPlotAppDelegate.h */,
+				A94399A41AC5FC1800F3D4A5 /* SIPlotAppDelegate.m */,
+				A94399A61AC5FC1800F3D4A5 /* MainMenu.xib */,
+				A94399981AC5FC1700F3D4A5 /* Supporting Files */,
+			);
+			path = SIPlotViewExample;
+			sourceTree = "<group>";
+		};
+		A94399981AC5FC1700F3D4A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94399991AC5FC1700F3D4A5 /* SIPlotViewExample-Info.plist */,
+				A943999A1AC5FC1700F3D4A5 /* InfoPlist.strings */,
+				A943999D1AC5FC1700F3D4A5 /* main.m */,
+				A943999F1AC5FC1800F3D4A5 /* SIPlotViewExample-Prefix.pch */,
+				A94399A01AC5FC1800F3D4A5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94399C11AC6191A00F3D4A5 /* SIPlotView */ = {
+			isa = PBXGroup;
+			children = (
+				A94399C21AC6191A00F3D4A5 /* Supporting Files */,
+			);
+			path = SIPlotView;
+			sourceTree = "<group>";
+		};
+		A94399C21AC6191A00F3D4A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94399C31AC6191A00F3D4A5 /* SIPlotView-Info.plist */,
+				A94399C41AC6191A00F3D4A5 /* InfoPlist.strings */,
+				A94399C71AC6191A00F3D4A5 /* SIPlotView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A94399BC1AC6191A00F3D4A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94399CF1AC6192E00F3D4A5 /* NSString+timeInterval.h in Headers */,
+				A94399D01AC6193900F3D4A5 /* SIPlotView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A943998D1AC5FC1700F3D4A5 /* SIPlotViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94399AB1AC5FC1800F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotViewExample" */;
+			buildPhases = (
+				A943998A1AC5FC1700F3D4A5 /* Sources */,
+				A943998B1AC5FC1700F3D4A5 /* Frameworks */,
+				A943998C1AC5FC1700F3D4A5 /* Resources */,
+				A94399D51AC6197300F3D4A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94399D31AC6196A00F3D4A5 /* PBXTargetDependency */,
+			);
+			name = SIPlotViewExample;
+			productName = SIPlotViewExample;
+			productReference = A943998E1AC5FC1700F3D4A5 /* SIPlotViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94399BE1AC6191A00F3D4A5 /* SIPlotView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94399CB1AC6191A00F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotView" */;
+			buildPhases = (
+				A94399BA1AC6191A00F3D4A5 /* Sources */,
+				A94399BB1AC6191A00F3D4A5 /* Frameworks */,
+				A94399BC1AC6191A00F3D4A5 /* Headers */,
+				A94399BD1AC6191A00F3D4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIPlotView;
+			productName = SIPlotView;
+			productReference = A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94399861AC5FC1700F3D4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SIPlot;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Studio Istanbul Medya Hiz. Tic. Ltd. Sti.";
+			};
+			buildConfigurationList = A94399891AC5FC1700F3D4A5 /* Build configuration list for PBXProject "SIPlotViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A94399851AC5FC1700F3D4A5;
+			productRefGroup = A943998F1AC5FC1700F3D4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A943998D1AC5FC1700F3D4A5 /* SIPlotViewExample */,
+				A94399BE1AC6191A00F3D4A5 /* SIPlotView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A943998C1AC5FC1700F3D4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A943999C1AC5FC1700F3D4A5 /* InfoPlist.strings in Resources */,
+				A94399A21AC5FC1800F3D4A5 /* Credits.rtf in Resources */,
+				A94399A81AC5FC1800F3D4A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94399BD1AC6191A00F3D4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94399C61AC6191A00F3D4A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A943998A1AC5FC1700F3D4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A943999E1AC5FC1700F3D4A5 /* main.m in Sources */,
+				A94399A51AC5FC1800F3D4A5 /* SIPlotAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94399BA1AC6191A00F3D4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94399CE1AC6192700F3D4A5 /* NSString+timeInterval.m in Sources */,
+				A94399D71AC61A5300F3D4A5 /* SIPlotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94399D31AC6196A00F3D4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94399BE1AC6191A00F3D4A5 /* SIPlotView */;
+			targetProxy = A94399D21AC6196A00F3D4A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A943999A1AC5FC1700F3D4A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A943999B1AC5FC1700F3D4A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A94399A01AC5FC1800F3D4A5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94399A11AC5FC1800F3D4A5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A94399A61AC5FC1800F3D4A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94399A71AC5FC1800F3D4A5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A94399C41AC6191A00F3D4A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94399C51AC6191A00F3D4A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94399A91AC5FC1800F3D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A94399AA1AC5FC1800F3D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A94399AC1AC5FC1800F3D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPlotViewExample/SIPlotViewExample-Prefix.pch";
+				INFOPLIST_FILE = "SIPlotViewExample/SIPlotViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A94399AD1AC5FC1800F3D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPlotViewExample/SIPlotViewExample-Prefix.pch";
+				INFOPLIST_FILE = "SIPlotViewExample/SIPlotViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A94399CC1AC6191A00F3D4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPlotView/SIPlotView-Prefix.pch";
+				INFOPLIST_FILE = "SIPlotView/SIPlotView-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A94399CD1AC6191A00F3D4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SIPlotView/SIPlotView-Prefix.pch";
+				INFOPLIST_FILE = "SIPlotView/SIPlotView-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94399891AC5FC1700F3D4A5 /* Build configuration list for PBXProject "SIPlotViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94399A91AC5FC1800F3D4A5 /* Debug */,
+				A94399AA1AC5FC1800F3D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94399AB1AC5FC1800F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94399AC1AC5FC1800F3D4A5 /* Debug */,
+				A94399AD1AC5FC1800F3D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A94399CB1AC6191A00F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94399CC1AC6191A00F3D4A5 /* Debug */,
+				A94399CD1AC6191A00F3D4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94399861AC5FC1700F3D4A5 /* Project object */;
+}
