@@ -44,7 +44,7 @@
             SIPlotViewPoint* myPoint3 = [SIPlotViewPoint plotViewPointWithValue:(double)arc4random_uniform(200)/10 atTime:[NSDate timeIntervalSinceReferenceDate]];
             [thirdChannel addPoint:myPoint3];
         }
-        if (thirdChannel.points.count > 15) thirdChannel.active = YES;
+        if (thirdChannel.points.count == 15) thirdChannel.active = YES;
         toggle = !toggle;
         [NSThread sleepForTimeInterval:1];
     }

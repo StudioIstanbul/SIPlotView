@@ -1,0 +1,3 @@
+[submodule "M3AppKit"]
+	path = M3AppKit
+	url = git@github.com:mcubedsw/M3AppKit.git

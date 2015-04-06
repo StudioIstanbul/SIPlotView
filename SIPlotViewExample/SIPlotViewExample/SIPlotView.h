@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class SIPlotViewChannel, SIPlotView;
+@class SIPlotViewChannel, SIPlotView, SIPlotViewChannelView, SIPlotViewChannelLegendView;
 
 // Describing one Point
 @interface SIPlotViewPoint : NSObject
@@ -26,10 +26,12 @@
 @property (assign, nonatomic) BOOL active;
 @property (strong, readonly) NSArray* points;
 @property (weak, nonatomic) SIPlotView* view;
+@property (weak, nonatomic) SIPlotViewChannelView* channelView;
 @property (assign, readonly) NSTimeInterval minTime;
 @property (assign, readonly) NSTimeInterval maxTime;
 @property (assign, readonly) double minVal;
 @property (assign, readonly) double maxVal;
+@property (assign, nonatomic) BOOL needsRedraw;
 -(void)addPoint:(SIPlotViewPoint*)point;
 @end
 
@@ -38,6 +40,6 @@
 @property (strong, nonatomic) NSMutableArray* channels;
 @property (assign, readonly) NSTimeInterval minTime;
 @property (assign, readonly) NSTimeInterval maxTime;
-
+@property (strong, nonatomic) IBOutlet SIPlotViewChannelLegendView* legendView;
 -(void)addChannel:(SIPlotViewChannel*)channel;
 @end

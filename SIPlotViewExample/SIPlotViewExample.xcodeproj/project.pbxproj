@@ -21,6 +21,10 @@
 		A94399D41AC6197000F3D4A5 /* SIPlotView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */; };
 		A94399D61AC6198200F3D4A5 /* SIPlotView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A94399BF1AC6191A00F3D4A5 /* SIPlotView.framework */; };
 		A94399D71AC61A5300F3D4A5 /* SIPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94399B51AC5FC3E00F3D4A5 /* SIPlotView.m */; };
+		A9D4B55B1AD2ADDC00512FD1 /* NSView+Fade.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D4B5591AD2ADDC00512FD1 /* NSView+Fade.h */; };
+		A9D4B55C1AD2ADDC00512FD1 /* NSView+Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4B55A1AD2ADDC00512FD1 /* NSView+Fade.m */; };
+		A9E580FA1AD2E4C50068AA5E /* NSColor+M3Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E580F81AD2E4C50068AA5E /* NSColor+M3Extensions.h */; };
+		A9E580FB1AD2E4C50068AA5E /* NSColor+M3Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E580F91AD2E4C50068AA5E /* NSColor+M3Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		A94399C31AC6191A00F3D4A5 /* SIPlotView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SIPlotView-Info.plist"; sourceTree = "<group>"; };
 		A94399C51AC6191A00F3D4A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A94399C71AC6191A00F3D4A5 /* SIPlotView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SIPlotView-Prefix.pch"; sourceTree = "<group>"; };
+		A9D4B5591AD2ADDC00512FD1 /* NSView+Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Fade.h"; sourceTree = "<group>"; };
+		A9D4B55A1AD2ADDC00512FD1 /* NSView+Fade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Fade.m"; sourceTree = "<group>"; };
+		A9E580F81AD2E4C50068AA5E /* NSColor+M3Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+M3Extensions.h"; path = "../../M3AppKit/M3AppKit/Source/NSColor+M3Extensions.h"; sourceTree = "<group>"; };
+		A9E580F91AD2E4C50068AA5E /* NSColor+M3Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+M3Extensions.m"; path = "../../M3AppKit/M3AppKit/Source/NSColor+M3Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,10 @@
 		A94399971AC5FC1700F3D4A5 /* SIPlotViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				A9E580F81AD2E4C50068AA5E /* NSColor+M3Extensions.h */,
+				A9E580F91AD2E4C50068AA5E /* NSColor+M3Extensions.m */,
+				A9D4B5591AD2ADDC00512FD1 /* NSView+Fade.h */,
+				A9D4B55A1AD2ADDC00512FD1 /* NSView+Fade.m */,
 				A94399B71AC615B000F3D4A5 /* NSString+timeInterval.h */,
 				A94399B81AC615B000F3D4A5 /* NSString+timeInterval.m */,
 				A94399B41AC5FC3E00F3D4A5 /* SIPlotView.h */,
@@ -183,6 +195,8 @@
 			files = (
 				A94399CF1AC6192E00F3D4A5 /* NSString+timeInterval.h in Headers */,
 				A94399D01AC6193900F3D4A5 /* SIPlotView.h in Headers */,
+				A9D4B55B1AD2ADDC00512FD1 /* NSView+Fade.h in Headers */,
+				A9E580FA1AD2E4C50068AA5E /* NSColor+M3Extensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +305,8 @@
 			files = (
 				A94399CE1AC6192700F3D4A5 /* NSString+timeInterval.m in Sources */,
 				A94399D71AC61A5300F3D4A5 /* SIPlotView.m in Sources */,
+				A9D4B55C1AD2ADDC00512FD1 /* NSView+Fade.m in Sources */,
+				A9E580FB1AD2E4C50068AA5E /* NSColor+M3Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +490,7 @@
 				A94399AD1AC5FC1800F3D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94399CB1AC6191A00F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotView" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +499,7 @@
 				A94399CD1AC6191A00F3D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
