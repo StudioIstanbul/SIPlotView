@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90BB8FE1AC74DB500C0BA8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90BB8FD1AC74DB500C0BA8C /* QuartzCore.framework */; };
+		A90BB9141AC752D000C0BA8C /* NSBezierPath+XUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A90BB9121AC752D000C0BA8C /* NSBezierPath+XUIKit.h */; };
+		A90BB9151AC752D000C0BA8C /* NSBezierPath+XUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A90BB9131AC752D000C0BA8C /* NSBezierPath+XUIKit.m */; };
 		A94399921AC5FC1700F3D4A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94399911AC5FC1700F3D4A5 /* Cocoa.framework */; };
 		A943999C1AC5FC1700F3D4A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A943999A1AC5FC1700F3D4A5 /* InfoPlist.strings */; };
 		A943999E1AC5FC1700F3D4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A943999D1AC5FC1700F3D4A5 /* main.m */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A90BB90C1AC74F8700C0BA8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A94399D51AC6197300F3D4A5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,6 +59,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A90BB8FD1AC74DB500C0BA8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A90BB9121AC752D000C0BA8C /* NSBezierPath+XUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+XUIKit.h"; sourceTree = "<group>"; };
+		A90BB9131AC752D000C0BA8C /* NSBezierPath+XUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+XUIKit.m"; sourceTree = "<group>"; };
 		A943998E1AC5FC1700F3D4A5 /* SIPlotViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIPlotViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94399911AC5FC1700F3D4A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A94399941AC5FC1700F3D4A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -84,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90BB8FE1AC74DB500C0BA8C /* QuartzCore.framework in Frameworks */,
 				A94399C01AC6191A00F3D4A5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +110,7 @@
 		A94399851AC5FC1700F3D4A5 = {
 			isa = PBXGroup;
 			children = (
+				A90BB8FD1AC74DB500C0BA8C /* QuartzCore.framework */,
 				A94399971AC5FC1700F3D4A5 /* SIPlotViewExample */,
 				A94399C11AC6191A00F3D4A5 /* SIPlotView */,
 				A94399901AC5FC1700F3D4A5 /* Frameworks */,
@@ -132,6 +149,8 @@
 		A94399971AC5FC1700F3D4A5 /* SIPlotViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				A90BB9121AC752D000C0BA8C /* NSBezierPath+XUIKit.h */,
+				A90BB9131AC752D000C0BA8C /* NSBezierPath+XUIKit.m */,
 				A94399B71AC615B000F3D4A5 /* NSString+timeInterval.h */,
 				A94399B81AC615B000F3D4A5 /* NSString+timeInterval.m */,
 				A94399B41AC5FC3E00F3D4A5 /* SIPlotView.h */,
@@ -183,6 +202,7 @@
 			files = (
 				A94399CF1AC6192E00F3D4A5 /* NSString+timeInterval.h in Headers */,
 				A94399D01AC6193900F3D4A5 /* SIPlotView.h in Headers */,
+				A90BB9141AC752D000C0BA8C /* NSBezierPath+XUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +236,7 @@
 				A94399BB1AC6191A00F3D4A5 /* Frameworks */,
 				A94399BC1AC6191A00F3D4A5 /* Headers */,
 				A94399BD1AC6191A00F3D4A5 /* Resources */,
+				A90BB90C1AC74F8700C0BA8C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -291,6 +312,7 @@
 			files = (
 				A94399CE1AC6192700F3D4A5 /* NSString+timeInterval.m in Sources */,
 				A94399D71AC61A5300F3D4A5 /* SIPlotView.m in Sources */,
+				A90BB9151AC752D000C0BA8C /* NSBezierPath+XUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +456,7 @@
 				GCC_PREFIX_HEADER = "SIPlotView/SIPlotView-Prefix.pch";
 				INFOPLIST_FILE = "SIPlotView/SIPlotView-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Libraries @loader_path/../Frameworks @executable_path/../Libraries @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -450,6 +473,7 @@
 				GCC_PREFIX_HEADER = "SIPlotView/SIPlotView-Prefix.pch";
 				INFOPLIST_FILE = "SIPlotView/SIPlotView-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Libraries @loader_path/../Frameworks @executable_path/../Libraries @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -474,6 +498,7 @@
 				A94399AD1AC5FC1800F3D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94399CB1AC6191A00F3D4A5 /* Build configuration list for PBXNativeTarget "SIPlotView" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +507,7 @@
 				A94399CD1AC6191A00F3D4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

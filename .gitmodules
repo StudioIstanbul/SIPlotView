@@ -1,0 +1,3 @@
+[submodule "XUIKit"]
+	path = XUIKit
+	url = git@github.com:iccir/XUIKit.git

@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <QuartzCore/QuartzCore.h>
 
 @class SIPlotViewChannel, SIPlotView;
 
@@ -34,7 +35,7 @@
 @end
 
 // The main plot view
-@interface SIPlotView : NSView
+@interface SIPlotView : NSView <CAAction>
 @property (strong, nonatomic) NSMutableArray* channels;
 @property (assign, readonly) NSTimeInterval minTime;
 @property (assign, readonly) NSTimeInterval maxTime;
